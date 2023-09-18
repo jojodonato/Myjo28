@@ -1,0 +1,173 @@
+<html>
+<head>
+   <title> Gallery </title>
+   <style type="text/css">
+      .breadcrumbs {
+         background: #0076ff;
+         padding: 15px;
+      }
+      .breadcrumbs ul {
+         margin: 0;
+         padding: 0;
+      }
+      .breadcrumbs li {
+         display: inline-block;
+      }
+      .breadcrumbs li::before {
+         content: "⟩ "; /* change this character if you need to */
+         color: white;
+         margin: 0 8px;
+      }
+      /* change the character to insert before the first breadcrumbs link */
+      .breadcrumbs li:first-child::before {
+         content: "/ "; /* change this character if you need to */
+         color: white;
+         margin: 0 0;
+      }
+      .breadcrumbs li > a {
+         color: white;
+         text-decoration: none;
+         border-bottom: 1px solid white;
+      }
+      .breadcrumbs li:last-child > a {
+         color: white;
+         text-decoration: none;
+         border: none;
+      }
+   </style>
+<center>
+   <div class="breadcrumbs">
+      <ul>
+         <li><a href="file:///C:/xampp/htdocs/jomy28/index.html"> Home </a></li>
+         <li><a href="file:///C:/xampp/htdocs/jomy28/Gallery5.html"> Gallery</a></li>
+         <li><a href="file:///C:/xampp/htdocs/jomy28/Information.html"> Information </a></li>
+      </ul>
+   </div>
+</center>
+
+
+<div>
+ <style type="text/css">
+      #color-name {
+         color: blue
+      }
+   </style>
+<center>
+  <i> <h3 id="color-name">Gallery Images</h3></i>
+</div>
+</center>
+
+
+<center>
+    <img src="image/GridArt_20230915_110538857.jpg" width="500" height="400" />
+    <img src="image/GridArt_20230915_110027208.jpg" width="500" height="400" />
+</center>
+</div>
+
+
+
+
+<div>
+<center>
+    <img src="image/GridArt_20230915_111257551.jpg" width="500" height="400" />
+    <img src="image/GridArt_20230915_110858990.jpg" width="500" height="400" />
+</center>
+</div>
+
+
+
+ <style type="text/css">
+      * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+      }
+      /* the clearfix hack */
+      .footer-body::after {
+         content: "";
+         display: block;
+         clear: both;
+      }
+      /* float the divs */
+      .footer-body > div {
+         float: left;
+         padding: 20px;
+      }
+      /* sets the width of the first column */
+      .footer-body > div:first-child {
+         font-size: 150%;
+         width: 35%;
+         text-align: center;
+      }
+      /* sets the width of the second column */
+      .footer-body > div:last-child {
+         width: 65%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+   </style>
+</head>
+<body>
+   <header></header>
+   <main></main>
+   <footer>
+      <div class="footer-body">
+         <div> Jomy#28. </div>
+         <div>
+            <p>Tutuhanan Iyad A IStorya. </p>
+            <ul>
+               <li><a href="#"> Home </a></li>
+               <li><a href="#"> Gallery </a></li>
+               <li><a href="#"> Information </a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-copyright">
+         © Copyright goes here. 
+      </div>
+   </footer>
+
+
+</body>
+</html>
+
+
+   
